@@ -41,18 +41,31 @@ This is a plugin for [Homebridge](https://github.com/nfarina/homebridge) and [Ho
 </details>
 
 ## Installation
+
+**Option 1: Install via Homebridge Config UI X:**
+
+Search for "Google Home" in homebridge-config-ui-x and install homebridge-gsh.
+
+**Option 2: Manually Install:**
 ```
-sudo npm install -g homebridge-edomoticz
+sudo npm install -g homebridge-edomoticz-ui-x
 ```
 
 ## Update
+
+**Option 1: Update via Homebridge Config UI X:**
+
+ 1. Navigate to the Plugins page in homebridge-config-ui-x.
+ 2. Click the Settings button for the eDomoticz-ui-x plugin.
+
+**Option 2: Manually Update:**
 ```
-sudo npm update -g homebridge-edomoticz
+sudo npm update -g homebridge-edomoticz-ui-x
 ```
 
 ## Configuration
 
-To configure homebridge-gsh you must also be running homebridge-config-ui-x.
+To configure homebridge-gsh you must also be running [homebridge-config-ui-x](https://github.com/oznu/homebridge-config-ui-x).
 
  1. Navigate to the Plugins page in homebridge-config-ui-x.
  2. Click the Settings button for the eDomoticz-ui-x plugin.
