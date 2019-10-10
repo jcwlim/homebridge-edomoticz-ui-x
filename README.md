@@ -2,38 +2,42 @@
 This is a plugin for [Homebridge](https://github.com/nfarina/homebridge) and [Homebridge Config UI X Support](https://github.com/oznu/homebridge-config-ui-x) and [Domoticz](https://github.com/domoticz/domoticz). This is a fork of the work originally done by [PatchworkBoy](https://github.com/PatchworkBoy/homebridge-edomoticz).
 
 ## Supports:
-### Standard HomeKit Types (supported by Home.app):
-- Sockets (on/off) - Domoticz SwitchTypeVal: 0
-- Lamps (on/off) - Domoticz SwitchTypeVal: 0
-- Contact Sensors - Domoticz SwitchTypeVal: 2
-- Blinds - Domoticz SwitchTypeVal: 3
-- Smoke Detectors - Domoticz SwitchTypeVal: 5
-- Blinds (inverted) - Domoticz SwitchTypeVal: 6
-- Lamps (dimmer) - Domoticz SwitchTypeVal: 7
-- Motion Sensors - Domoticz SwitchTypeVal: 8
-- Push Switches -  Domoticz SwitchTypeVal: 9
-- Lock Contact  - Domoticz SwitchTypeVal: 11
-- Blinds (%) - Domoticz SwitchTypeVal: 13
-- Blinds (& inverted) - Domoticz SwitchTypeVal: 16
-- Push Buttons (selectors) - Domoticz SwitchTypeVal: 18
-- Lock Mechanisms - Domoticz SwitchTypeVal: 19
-- Lock Mechanisms (inverted) - Domoticz SwitchTypeVal: 20
-- Temperature sensors (only temperature characteristic in case of T+H / T+H+B)
-- Thermostat SetPoints
+<details>
+<summary><b>Standard HomeKit Types (supported by Home.app):</b></summary>
+- Sockets (on/off)</br>
+- Lamps (on/off</br>
+- Contact Sensors</br>
+- Blinds</br>
+- Smoke Detectors</br>
+- Blinds (inverted)</br>
+- Lamps (dimmer)</br>
+- Motion Sensors</br>
+- Push Switches</br>
+- Lock Contact</br>
+- Blinds (%)</br>
+- Blinds (& inverted)</br>
+- Push Buttons (selectors)</br>
+- Lock Mechanisms</br>
+- Lock Mechanisms (inverted)</br>
+- Temperature sensors (only temperature characteristic in case of T+H / T+H+B)</br>
+- Thermostat SetPoints</br>
+</details>
 
 ## Provides:
-### Custom HomeKit Types (supported by 3rd Party HomeKit Apps only - eg: Elgato Eve):
-- General kWh power meters - Types: General, Current; SubType: kWh, mapped to Eve chars where possible
-- General Current, Voltage - Types: General, SubType: Current,Voltage, mapped to Eve chars where possible
-- CurrentCost USB power meter - Type: Usage, SubType: Electric, mapped to Eve chars where possible
-- P1 Smart Meter (Electric & Gas), mapped to Eve chars where possible
-- EvoHome** / OpenTherm Thermostat support - Types: Heating, Thermostat; SubTypes: Zone, SetPoint
-- YouLess Meter (Current, Total and Today Total Consumption) - Type: YouLess Meter; SubType: YouLess counter, mapped to Eve chars where possible
-- General Usage % meters (eg: Motherboard Sensors Hardware Device - CPU %, Mem %, HDD % etc) - Type: General; SubType: Percentage
-- Temperature, Temp + Humidity, Temp + Humidity + Baro (Current Temperature, Current Humidity, Current Pressure in hPA) - Type: Temp, Temp + Humidty, Temp + Humidity + Baro [id'd as Eve Weather]
-- DarkSkies Virtual Weather Station Sensors (Wind, Solar Radiation, Rainfall, Visibility, Barometer [id'd as Eve Weather])
+<details>
+<summary><b>Custom HomeKit Types (supported by 3rd Party HomeKit Apps only - eg: Elgato Eve):</b></summary>
+- General kWh power meters - Types: General, Current; SubType: kWh, mapped to Eve chars where possible</br>
+- General Current, Voltage - Types: General, SubType: Current,Voltage, mapped to Eve chars where possible</br>
+- CurrentCost USB power meter - Type: Usage, SubType: Electric, mapped to Eve chars where possible</br>
+- P1 Smart Meter (Electric & Gas), mapped to Eve chars where possible</br>
+- EvoHome** / OpenTherm Thermostat support - Types: Heating, Thermostat; SubTypes: Zone, SetPoint</br>
+- YouLess Meter (Current, Total and Today Total Consumption) - Type: YouLess Meter; SubType: YouLess counter, mapped to Eve chars where possible</br>
+- General Usage % meters (eg: Motherboard Sensors Hardware Device - CPU %, Mem %, HDD % etc) - Type: General; SubType: Percentage</br>
+- Temperature, Temp + Humidity, Temp + Humidity + Baro (Current Temperature, Current Humidity, Current Pressure in hPA) - Type: Temp, Temp + Humidty, Temp + Humidity + Baro [id'd as Eve Weather]</br>
+- DarkSkies Virtual Weather Station Sensors (Wind, Solar Radiation, Rainfall, Visibility, Barometer [id'd as Eve Weather])</br>
 
 ** assumes the EvoHome has been setup according to [this script method](https://www.domoticz.com/wiki/Evohome#Scripting_for_RFG100).
+</details>
 
 ## Installation
 ```
