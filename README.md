@@ -86,16 +86,16 @@ To configure homebridge-gsh you must also be running [homebridge-config-ui-x](ht
         "port": 51826,
         "pin": "031-45-154"
     },
-    "description": "Configuration file for (e)xtended Domoticz platform.",
     "platforms": [
         {
-            "platform": "eDomoticz",
-            "name": "eDomoticz",
+            "platform": "eDomoticz-ui-x",
+            "name": "Domoticz",
             "server": "127.0.0.1",
-            "port": "8080",
+            "port": 8080,
             "ssl": false,
             "roomid": 0,
             "mqtt": true,
+            "debug":false,
             "excludedDevices": [],
             "dimFix": 0
         }
