@@ -1,0 +1,40 @@
+{
+  "name": "homebridge-edomoticz",
+  "version": "1.0.0",
+  "description": "homebridge-plugin for Domoticz https://github.com/nfarina/homebridge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kapima-Systems/homebridge-edomoticz-ui-x.git"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "homebridge-plugin",
+    "eDomoticz-ui-x",
+    "eDomoticz",
+    "Domoticz"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.5"
+  },
+  "dependencies": {
+    "inherits": "^2.0.1",
+    "mqtt": "^2.15.0",
+    "request": "^2.81.0"
+  },
+  "author": {
+    "name": "DewGew",
+    "url": "https://github.com/Kapima-Systems/homebridge-edomoticz-ui-x"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Kapima-Systems/homebridge-edomoticz-ui-x/issues"
+  },
+  "homepage": "https://github.com/Kapima-Systems/homebridge-edomoticz-ui-x#readme",
+  "readme": "",
+  "readmeFilename": "README.md",
+}
