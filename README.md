@@ -44,7 +44,8 @@ This is a plugin for [Homebridge](https://github.com/nfarina/homebridge) and [Ho
 
 **Option 1: Install via Homebridge Config UI X:**
 
-Navigate to the Plugins page in in [homebridge-config-ui-x](https://github.com/oznu/homebridge-config-ui-x). Search for "domoticz" and install homebridge-edomoticz-ui-x.
+ 1. Navigate to the Plugins page in in [homebridge-config-ui-x](https://github.com/oznu/homebridge-config-ui-x).
+ 2. Search for "domoticz" and install homebridge-edomoticz-ui-x.
 
 **Option 2: Manually Install:**
 ```
