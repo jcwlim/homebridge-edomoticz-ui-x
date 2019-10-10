@@ -56,6 +56,8 @@ To configure homebridge-gsh you must also be running homebridge-config-ui-x.
 
  1. Navigate to the Plugins page in homebridge-config-ui-x.
  2. Click the Settings button for the eDomoticz-ui-x plugin.
+ 
+ ![sDomoticz-ui-x](edomoticz.png)
 
 <details><summary><b>Manual Configuration</b></summary>
     
