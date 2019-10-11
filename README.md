@@ -165,4 +165,4 @@ See [Domoticz API Reference](https://www.domoticz.com/wiki/Domoticz_API/JSON_URL
 Override-Until time in minutes from the current time. Allows setting an override-until time upto 8 hours in the future. Setting this slider to 0 will set the heating mode to Auto. Setting it to 481 will set the override as a PermanentOverride.
 
 ### Logging
-Complies with Homebridge's native logging & debugging methodology - see https://github.com/nfarina/homebridge/wiki/Basic-Trouble-Shooting
+Complies with Homebridge's native logging & debugging methodology - see https://github.com/nfarina/homebridge/wiki/Basic-Troubleshooting

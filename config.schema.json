@@ -3,7 +3,7 @@
 	"pluginType": "platform",
 	"singular": false,
 	"headerDisplay": "Homebridge plugin for Domoticz",
-	"footerDisplay": "For help visit [eDomoticz](https://github.com/PatchworkBoy/homebridge-edomoticz) or [Domoticz forum thread](https://www.domoticz.com/forum/viewtopic.php?f=36&t=10272)",
+	"footerDisplay": "For help visit [eDomoticz](https://github.com/Kapima-Systems/homebridge-edomoticz) or [Domoticz forum thread](https://www.domoticz.com/forum/viewtopic.php?f=36&t=10272)",
 	"schema": {
 		"type": "object",
 		"properties": {

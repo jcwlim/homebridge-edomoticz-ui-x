@@ -1,6 +1,6 @@
 {
   "name": "homebridge-edomoticz-ui-x",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "homebridge-plugin for Domoticz https://github.com/nfarina/homebridge",
   "main": "index.js",
   "scripts": {
@@ -18,8 +18,8 @@
     "Domoticz"
   ],
   "engines": {
-    "node": ">=0.12.0",
-    "homebridge": ">=0.2.5"
+    "node": ">=4.3.2",
+    "homebridge": ">=0.4.0"
   },
   "dependencies": {
     "inherits": "^2.0.1",
