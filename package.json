@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-edomoticz",
+  "name": "homebridge-edomoticz-ui-x",
   "version": "1.0.0",
   "description": "homebridge-plugin for Domoticz https://github.com/nfarina/homebridge",
   "main": "index.js",
