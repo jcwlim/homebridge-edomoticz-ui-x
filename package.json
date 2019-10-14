@@ -1,7 +1,7 @@
 {
   "name": "homebridge-edomoticz-ui-x",
-  "version": "1.0.2",
-  "description": "homebridge-plugin for Domoticz https://github.com/nfarina/homebridge",
+  "version": "1.0.3",
+  "description": "homebridge-plugin for Domoticz https://domoticz.com",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -95,7 +95,7 @@ To configure homebridge-gsh you must also be running [homebridge-config-ui-x](ht
             "ssl": false,
             "roomid": 0,
             "mqtt": true,
-            "debug":false,
+            "debuglog":false,
             "excludedDevices": [],
             "dimFix": 0
         }

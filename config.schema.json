@@ -3,7 +3,7 @@
 	"pluginType": "platform",
 	"singular": false,
 	"headerDisplay": "Homebridge plugin for Domoticz",
-	"footerDisplay": "For help visit [eDomoticz](https://github.com/Kapima-Systems/homebridge-edomoticz) or [Domoticz forum thread](https://www.domoticz.com/forum/viewtopic.php?f=36&t=10272)",
+	"footerDisplay": "For help visit [eDomoticz-ui-x](https://github.com/Kapima-Systems/homebridge-edomoticz-ui-x) or [Domoticz forum thread](https://www.domoticz.com/forum/viewtopic.php?f=36&t=10272)",
 	"schema": {
 		"type": "object",
 		"properties": {
@@ -46,7 +46,7 @@
 				"default": 0,
 				"description": "You will need to specify your SSL port - usually Port 443 by default."
 			},
-			"debug": {
+			"debuglog": {
 				"title": "Enable Debug",
 				"type": "boolean",
 				"default": 0,
@@ -114,7 +114,7 @@
 				"dimFix",
 				"mqtt",
 				"ssl",
-                		"debug"
+                "debuglog"
 			]
 		}
 	]
