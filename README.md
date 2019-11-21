@@ -1,5 +1,6 @@
-![npm](https://img.shields.io/npm/v/homebridge-edomoticz-ui-x?style=flat-square)
+![npm (tag)](https://img.shields.io/npm/v/homebridge-edomoticz-ui-x/latest)
 ![npm](https://img.shields.io/npm/dt/homebridge-edomoticz-ui-x?label=Downloads&style=flat-square)
+
 
 # Homebridge-eDomoticz-ui-x
 This is a plugin for [Homebridge](https://github.com/nfarina/homebridge) and [Homebridge Config UI X Support](https://github.com/oznu/homebridge-config-ui-x) and [Domoticz](https://github.com/domoticz/domoticz). This is a fork of the work originally done by [PatchworkBoy](https://github.com/PatchworkBoy/homebridge-edomoticz).
